@@ -1,0 +1,245 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-image: url(./src/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+/* header_section */
+
+#header_section{
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+    height: 80px;
+    display: grid;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 100%;
+ 
+}
+/* .header_logo */
+.header_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.header_logo img{
+   height: 80px;
+   width: 80px;
+
+ 
+}
+/* .nav_bar */
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.header_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_button .header_icon{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.header_button .header_btn button{
+    background-color: rgb(25, 25, 95);
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+/* list_item */
+.list_item{
+    background-color: rgba(250, 240, 225, 0.5);
+    width: 100%;
+    border-bottom: 1px solid  rgba(32, 31, 28, 0.5);
+}
+
+.list_item .ul{
+    width: 900px;
+    height: 80px;
+    padding: 20px;
+    margin:  auto;
+
+}
+
+.list_item .ul ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list_item .ul ul li{
+    list-style: none;
+}
+.list_item .ul ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(27, 27, 87);
+
+}
+
+/* IHI */
+.IHI{
+    background-color: rgb(243, 248, 252);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+ 
+}
+.IHI p{
+    letter-spacing: 2px;
+    font-size: 30px;
+   text-transform: uppercase;
+   font-weight: 300;
+}
+
+/* meetings_Events */
+.meetings_Events{
+
+    background-color: rgb(243, 248, 252);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 5px;
+
+  
+}
+.p_Icon1{
+    margin-bottom: 30px;
+}
+.p_Icon2{
+    margin-bottom: 30px;
+}
+.meetings_Events h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+ font-weight: 500;
+}
+/* img */
+.parent_img{
+    
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.parent_img img{
+    width: 100px;
+    width: 100%;
+}
+.meetings_Events button{
+    background-color: rgb(15, 15, 71);
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.meetings_Events h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color:  rgb(15, 15, 71);
+    margin: 20px;
+}
+
+.pragraph{
+    background-color: aliceblue;
+    margin-top: 200px;
+    padding: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(141, 133, 133);
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(37, 35, 110);
+}
+
+
+.footer p{
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+.footer .contact{
+ 
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+
+}
+
+.contact li{
+    list-style: none;
+    margin: 20px;
+}
+
+.contact li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.contact li i{
+    color: rgb(37, 35, 110);
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.footer h5{
+   color: aliceblue;
+   text-align: center;
+   font-size: 15px;
+   letter-spacing: 2px;
+   padding: 10px;
+}
+
+
